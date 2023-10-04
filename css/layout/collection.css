@@ -1,283 +1,302 @@
 /* FOR MOBILE */
 
 @media screen and (max-width: 767px) {
-    .our-collection-container {
-      background: #1c2225;
-      padding: 18px 20px;
-    }
-  
-    .our-collection-title {
-      display: flex;
-      justify-content: center;
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 32px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.37;
-      letter-spacing: -0.03;
-  
-      align-self: stretch;
-      text-align: center;
-      text-transform: capitalize;
-      margin-bottom: 18px;
-    }
-  
-    .our-collection-list {
-      display: flex;
-      flex-wrap: wrap;
-      row-gap: 20px;
-      max-height: 3062px;
-      border-radius: 4px;
-    }
-  
-    .our-collection-li {
-      display: flex;
-      width: 335px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
-    }
-  
-    .our-collection-li:last-child {
-      margin-bottom: 0;
-    }
-  
-    .our-collection-img-box {
-      display: flex;
-      max-width: 335px;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .img-border {
-      border-radius: 4px;
-      background: url(../img/collection/poltava-m.jpg),
-        lightgray 50% / cover no-repeat;
-    }
-  
-    .our-collection-describtion {
-      padding-top: 18px;
-      gap: 8px;
-    }
-  
-    .our-collection-describtion-title {
-      width: 335px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-  
-    .our-collection-describtion-text {
-      color: rgba(252, 249, 249, 0.4);
-      font-family: Manrope;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1;
-      letter-spacing: 0.02em;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
-    }
+  .section-our-collection {
+    background-image: url(../img/bg-ornament/m-ornament-c.png);
+    background-position: 0 316px;
+    background-size: auto, 177px;
+    background-repeat: no-repeat;
   }
-  
-  /* FOR TABLET */
-  
-  @media screen and (min-width: 768px) {
-    .our-collection-title {
-      display: flex;
-      justify-content: center;
-  
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 44px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.45;
-      letter-spacing: -0.03;
-  
-      align-self: stretch;
-      text-align: center;
-      text-transform: capitalize;
-      margin-bottom: 18px;
-    }
-  
-    .our-collection-list {
-      display: inline-flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      gap: 20px;
-  
-      max-width: 768px;
-      max-height: 1770px;
-    }
-  
-    .our-collection-li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      width: calc((100% - 24px) / 2);
-    }
-  
-    .our-collection-li:last-child {
-      margin-bottom: 0;
-    }
-  
-    .our-collection-img-box {
-      display: flex;
-      width: 342px;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .img-border {
-      border-radius: 4px;
-      background: url(../img/collection/poltava-m.jpg),
-        lightgray 50% / cover no-repeat;
-    }
-  
-    .our-collection-describtion {
-      padding-top: 18px;
-      gap: 8px;
-    }
-  
-    .our-collection-describtion-title {
-      width: 342px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1;
-      letter-spacing: 0.05em;
-  
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 1;
-  
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-  
-    .our-collection-describtion-text {
-      color: rgba(252, 249, 249, 0.4);
-      font-family: Manrope;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1;
-      letter-spacing: 0.05em;
-  
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
-    }
+
+  .our-collection-container {
+    padding: 18px 20px;
   }
-  
-  /* FOR DESKTOP */
-  
-  @media screen and (min-width: 1280px) {
-    .our-collection-title {
-      display: flex;
-      justify-content: center;
-  
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 44px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.45;
-      letter-spacing: -0.03;
-  
-      align-self: stretch;
-      text-align: center;
-      text-transform: capitalize;
-      margin-bottom: 18px;
-    }
-  
-    .our-collection-list {
-      display: inline-flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      max-width: 1280px;
-    }
-  
-    .our-collection-li {
-      display: flex;
-      flex-wrap: wrap;
-      column-gap: 20px;
-      row-gap: 40px;
-  
-      align-items: center;
-      gap: 8px;
-      width: calc((100% - 48px) / 3);
-    }
-  
-    .our-collection-li:last-child {
-      margin-bottom: 0;
-    }
-  
-    .our-collection-img-box {
-      display: flex;
-      width: 342px;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .img-border {
-      border-radius: 4px;
-      background: url(../img/collection/poltava-m.jpg),
-        lightgray 50% / cover no-repeat;
-    }
-  
-    .our-collection-describtion {
-      padding-top: 18px;
-      gap: 8px;
-    }
-  
-    .our-collection-describtion-title {
-      width: 342px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      color: #fcf9f9;
-      font-family: Manrope;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1;
-      letter-spacing: 0.05em;
-  
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 1;
-  
-      text-transform: uppercase;
-      margin-bottom: 8px;
-    }
-  
-    .our-collection-describtion-text {
-      color: rgba(252, 249, 249, 0.4);
-      font-family: Manrope;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1;
-      letter-spacing: 0.05em;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
-    }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
   }
+
+  .our-collection-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    max-height: 3062px;
+    border-radius: 4px;
+  }
+
+  .our-collection-li {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    max-width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 335px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/m-ornament-c.@2x.png');
+    background-size: auto, 177px;
+    background-position: 0 271px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* FOR TABLET */
+
+@media screen and (min-width: 768px) {
+  .section-our-collection {
+    background-image: url(../img/bg-ornament/t-ornament-c.png);
+    background-position: 0 260px;
+    background-size: auto, 338px;
+    background-repeat: no-repeat;
+  }
+
+  .our-collection-container {
+    padding: 50px 32px;
+  }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+
+  .our-collection-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 768px;
+    max-height: 1770px;
+  }
+
+  .our-collection-li {
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8px; */
+    width: calc((100% - 20px) / 2);
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 342px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/t-ornament-c@2x.png');
+    background-size: auto, 177px;
+    background-position: 0 271px;
+  }
+}
+
+/* FOR DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .section-our-collection {
+    background-image: url(../img/bg-ornament/ornament-c.png);
+    background-position: 0 240px;
+    background-size: 180px 338px;
+    background-repeat: no-repeat;
+  }
+
+  .our-collection-container {
+    padding: 70px 100px 150px 100px;
+  }
+
+  .our-collection-title {
+    color: #fcf9f9;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .our-collection-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1280px;
+  }
+
+  .our-collection-li {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+
+    align-items: center;
+    gap: 8px;
+    width: calc((100% - 40px) / 3);
+  }
+
+  .our-collection-li:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-collection-img-box {
+    display: flex;
+    width: 342px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-border {
+    border-radius: 4px;
+  }
+
+  .our-collection-describtion {
+    padding-top: 18px;
+    gap: 8px;
+  }
+
+  .our-collection-describtion-title {
+    width: 342px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fcf9f9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .our-collection-describtion-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .section-our-collection {
+    background-image: url('../img/bg-ornament/ornament-c@2x.png');
+    background-size: cover;
+  }
+}
